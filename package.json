@@ -6,8 +6,8 @@
   "author": "Adjie Guntoro",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server/index.js",
-    "webpack": "webpack -wd"
+    "dev:client": "nodemon --exec babel-node src/server/index.js",
+    "dev:server": "webpack -wd"
   },
   "dependencies": {
     "compression": "^1.7.4",
